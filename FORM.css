@@ -1,0 +1,66 @@
+body{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.register-container{
+    background-color: #deebfa;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 400px;
+}
+h1{
+    margin-top: 10px;
+    color:rgb(6, 196, 38);
+    text-decoration:underline rgb(0, 0, 0);
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap: 15px;
+}
+.form-group{
+    display:flex;
+    gap: 10px;
+}
+#first_name,#last_name,#email,#password,#Confirm_Password{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.group-checkbox{
+    display: flex;
+    align-items: left;
+    justify-content: start; 
+    gap: 5px;
+}
+label{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+a{
+    color: rgb(6, 196, 38);
+}
+a:hover{
+    text-decoration: dotted;
+}
+button{
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #322188;
+}
+
+
